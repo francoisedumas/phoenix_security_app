@@ -1,0 +1,16 @@
+.hero {
+  background-image: var(--gradient-filter), assest_path('security_landing.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &--primary {
+    text-align: center;
+    color: var(--color-white) !important;
+  }
+}
