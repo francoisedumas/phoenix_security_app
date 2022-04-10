@@ -1,6 +1,8 @@
 .navbar {
+  position: sticky;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   box-shadow: var(--shadow-large);
   padding: var(--space-xs) var(--space-m);
   background-color: (var(--color-white));
@@ -20,5 +22,56 @@
 
   &__right {
     margin-left: auto;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    gap: var(--space-m);
+  }
+
+  &__hamburger {
+    display: none;
+  }
+
+  @media screen and (max-width: 1024px) {
+    // Hide all the link for mobile
+    &__links {
+      display: none;
+      align-items: center;
+      flex-direction: column;
+      gap: var(--space-xs);
+      flex-basis: 100%;
+    }
+
+    // Display the hamburger for mobile
+    &__hamburger {
+      display: block;
+      cursor: pointer;
+
+      .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: var(--color-text-header);
+      }
+    }
+
+    &__hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    &__hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    &__hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
   }
 }
