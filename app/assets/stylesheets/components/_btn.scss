@@ -67,7 +67,8 @@
     &:focus,
     &:focus-within,
     &:active {
-      color: var(--color-white);
+      color: var(--color-dark);
+      background-color: var(--color-light);
     }
   }
 }
