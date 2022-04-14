@@ -1,23 +1,33 @@
-<header class="navbar">
-  <%= link_to "Phoenix Security Company", root_path, class: "navbar__brand" %>
+<header>
+  <nav class="navbar" data-controller="toggle" data-toggle-class-value="active">
+    <%= link_to "Phoenix Security Company", root_path, class: "navbar__brand" %>
 
-  <div class="navbar__links navbar__right">
-    <%= link_to "About",
-                "#",
-                class: "btn btn--dark" %>
-    <%= link_to "Sign in",
-                "#",
-                class: "btn btn--dark" %>
-  </div>
-  <div
-    class="navbar__hamburger"
-    data-controller="toggle"
-    data-toggle-class-value="active"
-    data-action="click->toggle#toggle"
-    data-toggle-target="content"
-  >
-    <span class="bar"></span>
-    <span class="bar"></span>
-    <span class="bar"></span>
-  </div>
+    <ul class="navbar__menu" data-toggle-target="content">
+        <li class="navbar__item">
+            <%= link_to "About",
+                        "#",
+                        class: "btn btn--dark" %>
+        </li>
+        <li class="navbar__item">
+            <%= link_to "Contact",
+                        "#",
+                        class: "btn btn--dark" %>
+        </li>
+        <li class="navbar__item">
+            <%= link_to "Sign in",
+                        "#",
+                        class: "btn btn--dark" %>
+        </li>
+    </ul>
+
+    <div
+      class="navbar__hamburger"
+      data-action="click->toggle#toggle"
+      data-toggle-target="content"
+    >
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
 </header>
