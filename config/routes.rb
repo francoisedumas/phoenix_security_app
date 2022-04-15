@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users
-  root to: "pages#home"
-  get "about", to: "pages#about"
+  scope "(:locale)", locale: /th|en/ do
+    devise_for :users
+    get '/:locale' => 'pages#home'
+    root to: "pages#home"
+    get "about", to: "pages#about"
+  end
 end
