@@ -72,3 +72,22 @@
     }
   }
 }
+
+// the children link of btn_language
+.btn_language a {
+  display: inline-block;
+  padding: var(--space-xxs) var(--space-xs);
+  color: var(--color-dark);
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  transition: filter 400ms, color 200ms;
+
+  &:hover,
+  &:focus,
+  &:focus-within,
+  &:active {
+    transition: filter 250ms, color 200ms;
+  }
+}
