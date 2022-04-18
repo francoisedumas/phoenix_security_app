@@ -9,6 +9,11 @@
   background-color: (var(--color-white));
   height: var(--space-xxxl);
 
+  &__sphere {
+    height: var(--font-size-xxl);
+    margin-right: var(--space-xs);
+  }
+
   &__menu {
     display: flex;
     justify-content: space-between;
@@ -77,6 +82,5 @@
     &__hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
-
   }
 }
