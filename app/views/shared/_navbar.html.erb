@@ -1,5 +1,7 @@
   <nav class="navbar" data-controller="toggle" data-toggle-class-value="active">
-    <%= link_to "Phoenix Security Company", root_path, class: "navbar__brand" %>
+    <%= link_to root_path, class: "navbar__brand" do %>
+      <%= image_tag "logo.png" %>
+    <% end %>
 
     <ul class="navbar__menu" data-toggle-target="content">
         <li class="navbar__item flex items-center btn_language">
