@@ -1,0 +1,28 @@
+
+.list {
+  &__argument {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    li {
+      margin: var(--space-m) 0rem;
+    }
+  }
+  &__line-container {
+    display: flex;
+    align-items: center;
+  }
+  &__rounded {
+    border-radius: 50%;
+    color: var(--color-white);
+    width: var(--space-xl);
+    height: var(--space-xl);
+    margin-right: var(--space-xs);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__rounded-muted {
+    background: var(--color-text-muted);
+  }
+}

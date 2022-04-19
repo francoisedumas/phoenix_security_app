@@ -1,3 +1,4 @@
+// FLEX
 .flex {
   display: flex;
 }
@@ -50,4 +51,13 @@
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+// TEXT
+.text-center {
+  text-align: center;
+}
+
+.margin-top-m {
+  margin-top: var(--space-m);
 }

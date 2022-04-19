@@ -1,0 +1,11 @@
+.section {
+  margin-top: var(--space-l);
+  padding: var(--space-m) var(--space-xxxxl);
+  position: relative;
+}
+
+hr {
+  border: none;
+  border-top: var(--border-sm);
+  opacity: .5;
+}
