@@ -1,5 +1,87 @@
 <%= render 'pages/home/banner' %>
-<main class="container">
-  <%= render 'pages/home/intro' %>
-  <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="5000" data-aos-easing="ease-in-out"><%= t(".lorem") %></p>
+<main>
+  <div class="container">
+    <h2><%= t('.introduction_title') %></h2>
+    <p><%= t('.introduction_text') %></p>
+  </div>
+
+  <div class="section">
+    <hr>
+  </div>
+
+  <h2 class="text-center margin-top-m"><%= t('.service_section_title') %></h2>
+  <div
+    class="landing__feature"
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="5000"
+    data-aos-easing="ease-in-out"
+  >
+    <div class="landing__card">
+      <%= image_tag "building_security.jpeg" %>
+      <div class="landing__card-infos">
+        <h3><%= t('.service_1_title') %></h3>
+        <p><%= t('.service_1_description') %></p>
+      </div>
+    </div>
+    <div class="landing__card">
+      <%= image_tag "fire_security.jpeg" %>
+      <div class="landing__card-infos">
+        <h3><%= t('.service_2_title') %></h3>
+        <p><%= t('.service_2_description') %></p>
+      </div>
+    </div>
+    <div class="landing__card">
+      <%= image_tag "training_security.jpeg" %>
+      <div class="landing__card-infos">
+        <h3><%= t('.service_3_title') %></h3>
+        <p><%= t('.service_3_description') %></p>
+      </div>
+    </div>
+    <div class="landing__card">
+      <%= image_tag "training_safety.jpeg" %>
+      <div class="landing__card-infos">
+        <h3><%= t('.service_4_title') %></h3>
+        <p><%= t('.service_4_description') %></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <hr>
+  </div>
+
+  <h2 class="text-center margin-top-m"><%= t('.quality_section_title') %></h2>
+  <div class="container">
+    <div class="landing__card-horizontal">
+      <%= image_tag "quality.png" %>
+      <p><%= t('.quality_intro_text') %></p>
+    </div>
+    <ul class="list__argument">
+      <li class="list__line-container">
+        <div class="list__rounded list__rounded-muted">
+          <span>1</span>
+        </div>
+        <div><%= t('.quality_1_bullet') %></div>
+      </li>
+      <li class="list__line-container">
+        <div class="list__rounded list__rounded-muted">
+          <span>2</span>
+        </div>
+        <div><%= t('.quality_2_bullet') %></div>
+      </li>
+      <li class="list__line-container">
+        <div class="list__rounded list__rounded-muted">
+          <span>3</span>
+        </div>
+        <div><%= t('.quality_3_bullet') %></div>
+      </li>
+      <li class="list__line-container">
+        <div class="list__rounded list__rounded-muted">
+          <span>4</span>
+        </div>
+        <div><%= t('.quality_4_bullet') %></div>
+      </li>
+    </ul>
+  </div>
 </main>
