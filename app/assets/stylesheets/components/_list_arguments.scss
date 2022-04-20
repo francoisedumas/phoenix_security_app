@@ -4,6 +4,7 @@
     list-style: none;
     padding-left: 0;
     display: inline-block;
+    text-align: left;
     li {
       margin: var(--space-m) 0rem;
     }
@@ -16,6 +17,7 @@
     border-radius: 50%;
     color: var(--color-white);
     width: var(--space-xl);
+    min-width: var(--font-size-xxxl);
     height: var(--space-xl);
     margin-right: var(--space-xs);
     display: flex;
