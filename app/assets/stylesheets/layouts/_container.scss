@@ -12,4 +12,8 @@
     padding-left: var(--space-m);
     max-width: 70rem;
   }
+
+  &__border {
+    border: var(--border);
+  }
 }
