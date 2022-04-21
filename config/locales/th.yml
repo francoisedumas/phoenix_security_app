@@ -1,8 +1,8 @@
 th:
   pages:
     home:
-      banner_title: Phoenix Security Company
-      banner_text: Your security partner
+      banner_home_title: Phoenix Security Company
+      banner_home_text: Your security partner
       introduction_title: ความเป็นมาของบริษัท
       introduction_text: TO BE TRANSLATED We help you achieve the security level your organisation needs to minimise exposure to security and fire risk and maximise your company resilience.
       service_section_title: ประเภทของการให้บริการ
@@ -21,3 +21,15 @@ th:
       quality_3_bullet: ตรวจสอบคุณสมบัติของพนักงาน และปรับปรุงแฟ้ม ประวัติบุคคลทุกรอบ 1 ปี
       quality_4_bullet: จัดทำระบบและแบบฟอร์มการรายงานผลการ ปฏิบัติงานให้ผู้ว่าจ้างได้รับทราบ
       lorem: มั้ยราสเบอร์รีสารขัณฑ์ฮ่องเต้สแล็ก ตุ๊กตุ๊กมอคคาโครนา บัลลาสต์ วิดีโอโกะ มิลค์แซนด์วิช สตาร์ทพาสปอร์ตฟรุตหยวน เลคเชอร์ สปายเทเลกราฟ เหี่ยวย่นธุรกรรมมินต์ มือถือจังโก้เซ็นทรัลนิวส์ สังโฆพุดดิ้ง ฮิบรูออโต้ไวอากร้าคูลเลอร์ เธคแบนเนอร์พาร์ตเนอร์ ซื่อบื้อโบว์ สตาร์แพนงเชิญไฮไลต์ ติงต๊องผิดพลาดวาไรตี้
+    about:
+      banner_about_title: Phoenix Security Company
+      banner_about_text: Your security partner
+      introduction_title: ความเป็นมาของบริษัท
+      introduction_text: บจก.ฯ ได้ดำเนินการโดยจดทะเบียนถูกต้องตามกฎหมายและมีทุนจดทะเบียนจำนวน 5,000,000 บาท คณะผู้ก่อตั้งมีวัตถุประสงค์ให้เป็นบริษัทที่มีคุณภาพมาตรฐานในการทำงานด้านการรักษาความปลอดภัย เพื่อให้เกิดความเชื่อถือในการให้บริการมากกว่าผลประโยชน์ด้านการค้า ดังนั้นจึงได้กำหนดหลักการในการดำเนินงานและองค์ประกอบของบริษัทให้มีผู้เชี่ยวชาญในสาขาต่าง ๆ ที่เกี่ยวข้องกับการรักษาความปลอดภัยอย่างครบถ้วน
+      policy_section_title: นโยบายของบริษัท
+      policy_intro_text: TO FIND SOMETHING
+      policy_1_bullet: สนับสนุนธุรกิจการรักษาความปลอดภัยให้มีมาตรฐาน
+      policy_2_bullet: ให้บริการด้วยความซื่อสัตย์
+      policy_3_bullet: ต้องการให้บริษัทได้รับความเชื่อถือไว้วางใจ
+      policy_4_bullet: สนับสนุนค่าจ้างแรงงานที่เป็นธรรมกับพนักงาน
+      contact: Contact us

@@ -1,0 +1,62 @@
+<%= render 'pages/home/banner', page: 'about' %>
+<main>
+  <div class="container">
+    <h2><%= t('.introduction_title') %></h2>
+    <p><%= t('.introduction_text') %></p>
+  </div>
+
+  <div class="section">
+    <hr>
+  </div>
+
+  <h2 class="text-center margin-top-m"><%= t('.policy_section_title') %></h2>
+  <div
+    class="landing__feature"
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="5000"
+    data-aos-easing="ease-in-out"
+  >
+    <div class="landing__card">
+      <%= image_tag "policy_people.png" %>
+      <div class="landing__card-infos">
+        <p><%= t('.policy_intro_text') %></p>
+      </div>
+    </div>
+    <ul class="list__argument">
+      <li class="list__line-container">
+        <div class="list__rounded list__rounded-muted">
+          <span>1</span>
+        </div>
+        <div><%= t('.policy_1_bullet') %></div>
+      </li>
+      <li class="list__line-container">
+        <div class="list__rounded list__rounded-muted">
+          <span>2</span>
+        </div>
+        <div><%= t('.policy_2_bullet') %></div>
+      </li>
+      <li class="list__line-container">
+        <div class="list__rounded list__rounded-muted">
+          <span>3</span>
+        </div>
+        <div><%= t('.policy_3_bullet') %></div>
+      </li>
+      <li class="list__line-container">
+        <div class="list__rounded list__rounded-muted">
+          <span>4</span>
+        </div>
+        <div><%= t('.policy_4_bullet') %></div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <hr>
+  </div>
+
+  <div class="container">
+    <h2><%= t('.contact') %></h2>
+    <%= image_tag "contact.png" %>
+  </div>
+</main>
