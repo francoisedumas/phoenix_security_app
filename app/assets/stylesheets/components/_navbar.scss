@@ -7,12 +7,12 @@
   justify-content: space-between;
   box-shadow: var(--shadow-large);
   padding: var(--space-xs) var(--space-m);
-  background-color: (var(--color-white));
   height: var(--space-xxxl);
+  background-color: var(--color-dark);
 
   &__sphere {
-    height: var(--font-size-xxl);
     margin-right: var(--space-xs);
+    color: var(--color-white);
   }
 
   &__menu {
@@ -22,13 +22,14 @@
   }
 
   &__item {
+    color: var(--color-white);
     margin-left: var(--space-s);
   }
 
   &__brand {
     font-weight: bold;
     font-size: var(--font-size-xl);
-    color: var(--color-text-header);
+    color: var(--color-white);
     width: var(--font-size-xxxxl);
   }
 
@@ -43,7 +44,7 @@
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: var(--color-text-header);
+    background-color: var(--color-white);
   }
 
   @media screen and (max-width: 1024px) {
@@ -52,7 +53,7 @@
       left: -100%;
       top: var(--space-xxxl);
       flex-direction: column;
-      background-color: (var(--color-white));
+      background-color: (var(--color-dark));
       width: 100%;
       text-align: center;
       transition: 0.3s;

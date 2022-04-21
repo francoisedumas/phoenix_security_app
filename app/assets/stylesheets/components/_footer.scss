@@ -4,12 +4,16 @@ footer {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 10px;
   border-top: var(--border);
+  background-color: var(--color-dark);
 }
 footer a {
   font-size: var(--font-size-xxxl);
+  color: var(--color-white);
+}
+.text {
+  font-size: var(--font-size-m);
 }
 .fa-heart {
-  color: var(--red);
+  color: var(--color-primary);
 }
