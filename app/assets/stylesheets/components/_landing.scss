@@ -1,11 +1,10 @@
 .landing {
   &__feature {
     padding: var(--space-l);
-    margin-top: var(--space-xxs);
-    margin-bottom: var(--space-xxs);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
   &__card {
@@ -40,26 +39,26 @@
     flex-direction: column;
   }
 
-  &__card-horizontal {
-    margin: var(--space-m);
-    overflow: hidden;
-    height: 120px;
-    background-color: var(--color-dark);
-    box-shadow: var(--shadow-small);
-    display: flex;
-    align-items: center;
-    img {
-      height: 100%;
-      width: 120px;
-      object-fit: cover;
-      background-color: var(--color-white);
-    }
-    p {
-      color: var(--color-white);
-      margin: auto;
-    }
-    .right {
-      margin-left: auto;
-    }
-  }
+  // &__card-horizontal {
+  //   margin: var(--space-m);
+  //   overflow: hidden;
+  //   height: 120px;
+  //   background-color: var(--color-dark);
+  //   box-shadow: var(--shadow-small);
+  //   display: flex;
+  //   align-items: center;
+  //   img {
+  //     height: 100%;
+  //     width: 120px;
+  //     object-fit: cover;
+  //     background-color: var(--color-white);
+  //   }
+  //   p {
+  //     color: var(--color-white);
+  //     margin: auto;
+  //   }
+  //   .right {
+  //     margin-left: auto;
+  //   }
+  // }
 }

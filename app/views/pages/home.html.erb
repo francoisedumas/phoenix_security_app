@@ -52,10 +52,18 @@
   </div>
 
   <h2 class="text-center margin-top-m"><%= t('.quality_section_title') %></h2>
-  <div class="container">
-    <div class="landing__card-horizontal">
-      <%= image_tag "quality.png" %>
-      <p><%= t('.quality_intro_text') %></p>
+  <div
+    class="landing__feature"
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="5000"
+    data-aos-easing="ease-in-out"
+  >
+    <div class="landing__card">
+      <%= image_tag "quality_people.png" %>
+      <div class="landing__card-infos">
+        <p><%= t('.quality_intro_text') %></p>
+      </div>
     </div>
     <ul class="list__argument">
       <li class="list__line-container">
