@@ -93,3 +93,27 @@
     transition: filter 250ms, color 200ms;
   }
 }
+
+// Scroll to the top button
+.scroll-top {
+  position: absolute;
+  top: 120vh;
+  bottom: var(--space-xl);
+  right: var(--space-m);
+
+  &__link {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80vh;
+    border-radius: .25rem;
+    padding: var(--space-m);
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    font-weight: 700;
+  }
+
+  &__link:hover {
+    color: var(--color-white);
+    background-color: var(--color-text-muted);
+  }
+}

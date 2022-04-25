@@ -12,6 +12,8 @@
 html {
   overflow-y: scroll;
   height: 100%;
+  // for the scroll to top button
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,6 +24,8 @@ body {
   color: var(--color-text-body);
   line-height: var(--line-height-body);
   font-family: var(--font-family-sans);
+  // for the scroll to top button
+  position: relative;
 }
 
 img,
